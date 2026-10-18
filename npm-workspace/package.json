@@ -1,0 +1,18 @@
+{
+  "name": "npm-workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "npm run start --workspace=@practice/api",
+    "test:utils": "npm run test --workspace=@practice/shared-utils"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
