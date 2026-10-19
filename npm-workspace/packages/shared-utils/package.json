@@ -1,0 +1,9 @@
+{
+  "name": "@practice/shared-utils",
+  "version": "1.0.0",
+  "description": "Shared utility functions for workspace practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  }
+}
