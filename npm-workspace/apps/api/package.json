@@ -1,0 +1,11 @@
+{
+  "name": "@practice/api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@practice/shared-utils": "1.0.0"
+  }
+}
